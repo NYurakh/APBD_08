@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TripManagement.Models;
 
 namespace TripManagement.Context;
 
-public partial class maksousDbContext : DbContext
+public partial class MaksousDbContext : DbContext
 {
-    public maksousDbContext()
+    public MaksousDbContext()
     {
     }
 
-    public maksousDbContext(DbContextOptions<maksousDbContext> options)
+    public MaksousDbContext(DbContextOptions<MaksousDbContext> options)
         : base(options)
     {
     }

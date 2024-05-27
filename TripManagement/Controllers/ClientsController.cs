@@ -8,9 +8,9 @@ namespace TripManagement.Controllers
     [ApiController]
     public class ClientsController : ControllerBase
     {
-        private readonly maksousDbContext _context;
+        private readonly MaksousDbContext _context;
 
-        public ClientsController(maksousDbContext context)
+        public ClientsController(MaksousDbContext context)
         {
             _context = context;
         }

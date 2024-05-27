@@ -1,6 +1,6 @@
-namespace TripManagement.Dtos
+namespace TripManagement.DTOs
 {
-    public class CreateClientRequestDTO
+    public class CreateClientRequestDto
     {
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;

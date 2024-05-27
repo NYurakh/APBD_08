@@ -1,6 +1,6 @@
-namespace TripManagement.Dtos
+namespace TripManagement.DTOs
 {
-    public class CountryDTO
+    public class CountryDto
     {
         public string Name { get; set; } = null!;
     }
